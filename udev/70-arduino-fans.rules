@@ -1,0 +1,6 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="8036", \
+  SYMLINK+="arduino-fans", MODE="0666"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9206", \
+  SYMLINK+="arduino-fans", MODE="0666"
+

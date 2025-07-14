@@ -1,3 +1,2 @@
-/venv/
-/shelf/
-/.idea/
+.pio/
+.venv/
